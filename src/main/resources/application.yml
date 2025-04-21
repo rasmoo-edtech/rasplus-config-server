@@ -7,7 +7,9 @@ spring:
         git:
           uri: https://github.com/rasmoo-edtech/rasplus-config-server-repo
           search-paths:
-            - 'customer*'
+            - customer
+            - message
+            - data
           default-label: main
 server:
   port: 8888
